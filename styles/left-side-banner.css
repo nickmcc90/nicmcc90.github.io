@@ -1,0 +1,275 @@
+/* this media makes it so that the left side banner doesn't exist when the window is small. */
+
+@media (max-width: 899.9px) {
+  .visibility {
+    visibility: collapse;
+  }
+}
+
+@media (min-width: 900px) {
+
+  .fixed-part-of-left-banner {
+    position: fixed;
+    left: 0;
+    height: 90px;
+    top: 50px;
+    width: 330px;
+    padding: 0px 15px;
+    background-color: white;
+  }
+  
+  .left-side-banner {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 140px;
+    width: 330px;
+    padding: 0px 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .relative {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  .absolute {
+    height: 1150px;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 5px;
+    z-index: 0;
+    opacity: 0;
+    transition: opacity 1.5s;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    opacity: 1;
+  }
+  
+  .cog-image {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .cog-container {
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    background-color: rgb(240, 242, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .first-top {
+    font-size: 23px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+  }
+  
+  /* */
+  
+  .search-icon {
+    height: 15px;
+    width: 15px;
+    margin-left: 4px;
+  }
+  
+  .search-bar-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-icon-container {
+    background-color: rgb(240, 242, 245);
+    height: 35px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-bar {
+    width: 300px;
+    background-color: rgb(240, 242, 245);
+    padding: 5px 5px;
+    height: 25px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    font-size: 14px;
+    color: rgb(5,5,5);
+  }
+  
+  /* */
+  
+  .banner-buttons {
+    margin-top: 15px;
+    font-size: 14px;
+    width: 338px;
+  }
+  
+  .bottom-flex,
+  .grey-box,
+  .your-account-box {
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+    padding-left: 3px;
+    border-radius: 8px;
+    margin-left: -4px;
+  }
+  
+  .bottom-flex {
+    padding: 8px 5px;
+    padding-left: 3px;
+  }
+  
+  .bottom-flex:hover,
+  .your-account-box:hover {
+    background-color: rgb(240, 242, 245);
+  }
+  
+  .grey-box {
+    background-color: rgb(240, 242, 245);
+  }
+  
+  .bottom-image-container,
+  .user-container,
+  .market-container {
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+  }
+  
+  .bottom-image-container,
+  .user-container {
+    background-color: rgb(228, 230, 235);
+  }
+  
+  .market-container {
+    background-color: rgb(24, 119, 242);
+  }
+  
+  .bottom-image,
+  .market-icon,
+  .user-icon {
+    height: 22px;
+    width: 22px;
+  }
+  
+  .bottom-text,
+  .banner-buttons span {
+    margin-left: 8px;
+  }
+  
+  .bottom-text {
+    font-size: 14px;
+  }
+  
+  /* */
+  
+  .listing-button {
+    padding: 10px 20px;
+    background-color: aliceblue;
+    color: blue;
+    border: none;
+    border-radius: 6px;
+    width: 330px;
+    font-size: 15px;
+  }
+
+  .listing-button:hover {
+    background-color: rgb(rgb(89, 147, 197));
+  }
+  
+  /* */
+  
+  hr {
+    color: rgb(255, 255, 255)
+  }
+  
+  /* top section ends */
+  
+  .middle {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .filter {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .city {
+    font-size: 15px;
+    color: rgb(8, 102, 255);
+    padding: 5px 0px;
+  }
+
+  .city:hover {
+    background-color: rgb(228, 230, 235)
+  }
+  
+  /* middle section ends */
+  
+  .bottom {
+    margin-top: 15px;
+  }
+  
+  .cities {
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .city-flex {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 8px;
+    justify-content: left;
+  }
+  
+  .grey-bubble {
+    /* display: flex;
+    justify-content: left;
+    align-items: center; */
+    background-color: rgb(228, 230, 235);
+    padding: 10px 11px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 7px;
+  }
+
+  .grey-bubble:hover {
+    background-color: rgb(192, 193, 196)
+  }
+  
+  .city-name {
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+}

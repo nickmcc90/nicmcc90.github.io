@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>
+      Facebook Marketplace: Buy and Sell Items Locally or Shipped | Facebook
+    </title>
+    <link rel="stylesheet" href="styles/itembox.css">
+    <link rel="stylesheet" href="styles/mini-banner.css">
+    <link rel="stylesheet" href="styles/picture-banner.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/facebook-banner.css">
+    <link rel="stylesheet" href="styles/left-side-banner.css">
+
+
+    <!-- Files that were altered during this work session 1/31:
+      facebook.html
+      left-side-banner.css
+      
+
+      ***In order to have a scrolling fixed position div....
+
+      1) Have a fixed div with display: flex and flex-direction: column on.
+      2) Have a div inside that one with overflow: auto on.
+      3) Have another dive inside that that contains everything you wanna scroll.
+
+      And this scroll code: 
+      ::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+
+  Right now, we are in the middle of itembox.css working on restyling the itembox grid to different window sizes.
+    -->
+  </head>
+
+  <body>
+    <section>
+      <div class="facebook-banner">
+        <div class="f-left-side">
+          <img src="icons/facebook-text-icon.png">
+        </div>
+        <div class="f-right-side">
+          <div class="visibility">
+            <input type="text" placeholder="Email or Phone">
+            <input type="text" placeholder="Password">
+          </div>
+          <button>Log in</button>
+          <div class="visibility">
+            <a href="">Forgot Account?</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="visibility">
+        <div class="picture-banner">
+          <div class="left-side">
+            <div class="top-one">Buy and sell items locally or have something new shipped from stores.</div>
+            <div class="top-two">Log in to get the full Facebook Marketplace experience.</div>
+            <button>Log in</button>
+            <button>Learn more</button>
+          </div>
+          <div class="right-side">
+            <img src="icons/banner-image-2.png">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="mini-banner">
+        <div class="mini-banner-left"><strong>Today's picks</strong></div>
+        <div class="mini-banner-location-container">
+          <img src="sale-images/location-icon.png">
+          <div class="banner-location">San Francisco &#183; 40 mi</div>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section>
+        <div class="item-flexbox">
+          <div class="for-sale-preview">
+            <div class="sale-image-container">
+              <img class='image' src='sale-images/black-dodge.jpeg'>
+            </div>
+              <div class="sale-info-container">
+                <div class="price">$1,110</div>
+                <div class="description">2018 Dodge charger SRT Hellcat Sedan 4D</div>
+                <div class="location">San Francisco, CA</div>
+              <div class="mileage">123K miles</div>
+            </div>
+          </div>
+    
+          <div class="for-sale-preview">
+            <div class="sale-image-container">
+              <img class='image' src='sale-images/tractor-sale.jpeg'>
+            </div>
+              <div class="sale-info-container">
+                <div class="price">$700</div>
+                <div class="description">2007 Tractor</div>
+                <div class="location">Los Angeles, CA</div>
+              <div class="mileage">80K miles</div>
+            </div>
+          </div>
+    
+          <div class="for-sale-preview">
+            <div class="sale-image-container">
+              <img class='image' src='sale-images/inside-honda.jpeg'>
+            </div>
+              <div class="sale-info-container">
+                <div class="price">$2,160</div>
+                <div class="description">Honda red interior leather</div>
+                <div class="location">San Francisco, CA</div>
+              <div class="mileage">100K miles</div>
+            </div>
+          </div>
+    
+          <div class="for-sale-preview">
+            <div class="sale-image-container">
+              <img class='image' src='sale-images/chevrolet-image.jpeg'>
+            </div>
+              <div class="sale-info-container">
+                <div class="price">$62,000</div>
+                <div class="description">1970 Chevrolet ss</div>
+                <div class="location">Pleasant Hill, CA</div>
+              <div class="mileage">88K miles</div>
+            </div>
+          </div>
+    
+    
+          <div class="for-sale-preview">
+            <div class="sale-image-container">
+              <img class='image' src='sale-images/air-compressor.jpeg'>
+            </div>
+              <div class="sale-info-container">
+                <div class="price">FREE</div>
+                <div class="description">FREE Air Compressor (Brand New)</div>
+                <div class="location">San Francisco, CA</div>
+              <div class="mileage"></div>
+            </div>
+          </div>
+    
+          <div class="for-sale-preview">
+            <div class="sale-image-container">
+              <img class='image' src='sale-images/lego-collection.jpeg'>
+            </div>
+              <div class="sale-info-container">
+                <div class="price">$25,000</div>
+                <div class="description">massive lego collection as a lot</div>
+                <div class="location">Martinez, CA</div>
+              <div class="mileage"></div>
+            </div>
+          </div>
+    
+          <div class="for-sale-preview">
+            <div class="sale-image-container">
+              <img class='image' src='sale-images/telsa.jpeg'>
+            </div>
+              <div class="sale-info-container">
+                <div class="price">$14,000</div>
+                <div class="description">2015 Tesla model s 85D Sedan 4D</div>
+                <div class="location">San Rafael, CA</div>
+              <div class="mileage">150K miles</div>
+            </div>
+          </div>
+    
+          <div class="for-sale-preview">
+            <div class="sale-image-container">
+              <img class='image' src='sale-images/vintage.jpeg'>
+            </div>
+              <div class="sale-info-container">
+                <div class="price">$60</div>
+                <div class="description">Vintage sideboard</div>
+                <div class="location">Vallego, CA</div>
+              <div class="mileage"></div>
+            </div>
+          </div>
+    
+          <div class="for-sale-preview">
+            <div class="sale-image-container">
+              <img class='image' src='sale-images/home-sale.jpeg'>
+            </div>
+              <div class="sale-info-container">
+                <div class="price">$1,800</div>
+                <div class="description">1 Bed 1 Bath - House</div>
+                <div class="location">Hayward, CA</div>
+              <div class="mileage"></div>
+            </div>
+          </div>
+    
+        </div>
+      </section>
+    </main>
+
+    <section>
+      <div class="visibility">
+        <div class="fixed-part-of-left-banner">
+          <div class="first-top">
+            <div class="marketplace">
+              Marketplace
+            </div>
+            <div class="cog-container">
+              <img class="cog-image" src="icons/cog-wheel-silhouette.png">
+            </div>
+          </div>
+          <label class="search-bar-container">
+            <div class="search-icon-container">
+              <img class="search-icon" src="icons/loupe.png">
+            </div>
+            <input class="search-bar" type="text" placeholder="Search Marketplace">
+          </label>
+        </div>
+    
+    
+        <div class="left-side-banner">
+          <div class="relative">
+            <div class="absolute">
+              <div class="banner-buttons">
+                <div class="grey-box">
+                  <div class="market-container">
+                    <img class="market-icon" src="icons/marketplace.png">
+                  </div>
+                  <div><span>Browse all</span></div>
+                </div>
+                <div class="your-account-box">
+                  <div class="user-container">
+                    <img class="user-icon" src="icons/user.png">
+                  </div>
+                  <div><span>Your account</span></div>
+                </div>
+              </div>
+              <button class="listing-button">
+                &#43; Create New Listing
+              </button>
+              <hr>
+      
+              <div class="middle">
+                <div class="filter">Filters</div>
+                <div class="city">San Francisco, California</div>
+              </div>
+      
+              <hr> 
+      
+              <div class="bottom">
+                <div class="filter">Categories</div>
+                <div class="many-categories">
+                  <div class="bottom-flex">
+                    <div class="bottom-image-container">
+                      <img class="bottom-image" src="icons/sports-car.png">
+                    </div>
+                    <div class="bottom-text">
+                      Vehicles
+                    </div>
+                  </div>
+    
+                  <div class="bottom-flex">
+                    <div class="bottom-image-container">
+                      <img class="bottom-image" src="icons/rental.png">
+                    </div>
+                    <div class="bottom-text">
+                      Property Rentals
+                    </div>
+                  </div>
+    
+                  <div class="bottom-flex">
+                    <div class="bottom-image-container">
+                      <img class="bottom-image" src="icons/shirt.png">
+                    </div>
+                    <div class="bottom-text">
+                      Apparel
+                    </div>
+                  </div>
+    
+                  <div class="bottom-flex">
+                    <div class="bottom-image-container">
+                      <img class="bottom-image" src="icons/price-tag.png">
+                    </div>
+                    <div class="bottom-text">
+                      Classifieds
+                    </div>
+                  </div>
+    
+                  <div class="bottom-flex">
+                    <div class="bottom-image-container">
+                      <img class="bottom-image" src="icons/responsive.png">
+                    </div>
+                    <div class="bottom-text">
+                      Electronics
+                    </div>
+                  </div>
+    
+                  <div class="bottom-flex">
+                    <div class="bottom-image-container">
+                      <img class="bottom-image" src="icons/cinema-reel.png">
+                    </div>
+                    <div class="bottom-text">
+                      Entertainment
+                    </div>
+                  </div>
+    
+                  <div class="bottom-flex">
+                    <div class="bottom-image-container">
+                      <img class="bottom-image" src="icons/heart.png">
+                    </div>
+                    <div class="bottom-text">
+                      Family
+                    </div>
+                  </div>
+    
+                  <div class="bottom-flex">
+                    <div class="bottom-image-container">
+                      <img class="bottom-image" src="icons/free.png">
+                    </div>
+                    <div class="bottom-text">
+                      Free Stuff
+                    </div>
+                  </div>
+    
+                  <div class="bottom-flex">
+                    <div class="bottom-image-container">
+                      <img class="bottom-image" src="icons/gardening.png">
+                    </div>
+                    <div class="bottom-text">
+                      Garden & Outdoor
+                    </div>
+                  </div>
+    
+                  <div class="bottom-flex">
+                    <div class="bottom-image-container">
+                      <img class="bottom-image" src="icons/hobbies.png">
+                    </div>
+                    <div class="bottom-text">
+                      Hobbies
+                    </div>
+                  </div>
+    
+                  <div class="bottom-flex">
+                    <div class="bottom-image-container">
+                      <img class="bottom-image" src="icons/white-goods.png">
+                    </div>
+                    <div class="bottom-text">
+                      Home Goods
+                    </div>
+                  </div>
+    
+                  <div class="bottom-flex">
+                    <div class="bottom-image-container">
+                      <img class="bottom-image" src="icons/list.png">
+                    </div>
+                    <div class="bottom-text">
+                      More Categories
+                    </div>
+                  </div>
+                </div>
+    
+                <p class="cities">Nearby Cities</p>
+    
+                <div class="city-flex">
+                  <div class="grey-bubble">
+                    <div class="city-name">Daly City, California</div>
+                  </div>
+    
+                  <div class="grey-bubble">
+                    <div class="city-name">Brisbane, California</div>
+                  </div>
+    
+                  <div class="grey-bubble">
+                    <div class="city-name">Sausalito, California</div>
+                  </div>
+    
+                  <div class="grey-bubble">
+                    <div class="city-name">Broadmoor, California</div>
+                  </div>
+    
+                  <div class="grey-bubble">
+                    <div class="city-name">Belvedere, California</div>
+                  </div>
+    
+                  <div class="grey-bubble">
+                    <div class="city-name">See more</div>
+                  </div>
+    
+    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </section>
+  </body>
+</html>

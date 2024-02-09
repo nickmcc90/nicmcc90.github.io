@@ -1,0 +1,48 @@
+@media (max-width: 899.9px) {
+  .visibility {
+    visibility: collapse;
+  }
+}
+
+@media (min-width: 900px) {
+  .picture-banner {
+    background-color: rgb(255, 186, 176);
+    height: 160px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    justify-content: space-between;
+    flex: 1;
+    min-width: 740px;
+  }
+
+  
+  .top-one {
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+  }
+  
+  .picture-banner button {
+    background-color: white;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 13px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .picture-banner .right-side {
+    height: 100%;
+  }
+  
+  .picture-banner img {
+    height: 100%;
+    border-bottom-right-radius: 8px;
+  }
+
+}

@@ -1,0 +1,112 @@
+@media (max-width: 899.9px) {
+  .facebook-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid rgb(217, 217, 217);
+    box-shadow: 2px 2px 5px rgba(black,1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+  
+    z-index: 100;
+  }
+
+  .facebook-banner img {
+    width: 100%;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+
+  .visibility {
+    visibility: collapse;
+  }
+
+  .f-left-side {
+    width: 135px;
+  }
+
+  .f-right-side{
+    width: 90px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
+
+  .f-right-side button {
+    padding: 10px 15px;
+    background-color: rgb(8, 102, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
+
+
+
+@media (min-width: 900px) {
+.facebook-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid rgb(217, 217, 217);
+  box-shadow: 2px 2px 5px rgba(black,1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+
+  z-index: 100;
+}
+
+.facebook-banner img {
+  width: 100%;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.facebook-banner a {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(0, 100, 209);
+  font-weight: 100;
+}
+
+.f-left-side {
+  width: 135px;
+}
+
+.f-right-side {
+  display: flex;
+  column-gap: 7px;
+  margin-right: 30px;
+  align-items: center;
+}
+
+.f-right-side input {
+  padding: 10px 10px;
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 5px;
+  font-size: 15px;
+  width: 170px;
+}
+
+.f-right-side button {
+  padding: 10px 14px;
+  background-color: rgb(8, 102, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+}
